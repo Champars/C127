@@ -1,0 +1,52 @@
+body {
+    background-image: url("background.jpg");
+    background-size: contain;
+    font-family: 'Dancing Script', cursive;
+}
+
+.b {
+    font-size: 15px;
+    color: black;
+    float: right;
+}
+
+.a {
+    font-size: 15px;
+    color: black;
+    float: left;
+}
+
+.c {
+    font-size: 20px;
+}
+
+.d {
+    font-size: 15px;
+}
+
+.head {
+    font-size: xx-large;
+}
+
+.e {
+    float: right;
+}
+
+canvas {
+    margin-top: 100px;
+    border: 3px yellow;
+    border-style: outset;
+    border-radius: 10px;
+    animation-name: myanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myanimation {
+    from {
+        box-shadow: 15px 15px 15px blue;
+    }
+    to {
+        box-shadow: 15px 15px 15px green;
+    }
+}
